@@ -1,0 +1,3 @@
+\\ this file defines what will be excluded from the wordpress package
+*.md
+.github
