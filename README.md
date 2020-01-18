@@ -1,19 +1,17 @@
 # Vaulty
-[plugin-infos]: <> (
-Contributors:  jtvie
-Donation link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=59UPSYWME9YX6&currency_code=EUR&source=url
-Tags: attachments, security, WooCommerce, subscriber, member, divi
-Requires at least: 3.4
-Tested up to: 3.4
-Requires PHP: 7.2
-Stable tag: trunk
-License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl-3.0.txt
---
-This Plugin will secure uploaded attachments.
-)
 
-[section]: <> (Description)
+[wp-Contributors]: <> (jtvie)
+[wp-Donation link]: <> (https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=59UPSYWME9YX6&currency_code=EUR&source=url)
+[wp-Tags]: <> (attachments, uploads, files, security, WooCommerce, subscriber, member, divi)
+[wp-Requires at least]: <> (3.4)
+[wp-Tested up to]: <> (3.4)
+[wp-Requires PHP]: <> (7.2)
+[wp-Stable tag]: <> (trunk)
+[wp-License]: <> (GPLv3)
+[wp-License URI]: <> (https://www.gnu.org/licenses/gpl-3.0.txt)
+[wp-info]: <> (This Plugin will secure uploaded attachments.)
+
+[wp-section]: <> (Description)
 This Plugin will give you the option to secure your uploads. 
 It is only capable of securing files located inside the wp-uploads folder currently - no S3 or other cdn functionality. 
 If you wish to have content on your page witch should only be visible to e.g. subscribers or members - this plugin is exactly what you are looking for. 
@@ -70,7 +68,7 @@ If you like to use the Vaulty functions in your code, you can!
 This plugin is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. See the GNU General Public License for more details.
 
 # Installation
-[section]: <> (Installation)
+[wp-section]: <> (Installation)
 
 ## Direct installation
 1. Log into your wordpress installation
@@ -101,7 +99,7 @@ This plugin is distributed in the hope that it will be useful, but without any w
 If non of the above could help you with the install-process it could be that [this Guide](https://wordpress.org/support/article/managing-plugins/#installing-plugins "WordPress.org") is of more use.
 
 # Frequently Asked Questions
-[section]: <> (Frequently Asked Questions)
+[wp-section]: <> (Frequently Asked Questions)
 
 ## Are my images save after installation
 
@@ -141,7 +139,7 @@ If you don't have a clue to do this on your own, please ask your admin, pro-frie
 Please see the Screenshots
 
 # Screenshots
-[section]: <> (Screenshots)
+[wp-section]: <> (Screenshots)
 
 1. This shows you the general settings for Vaulty
 2. Vaulty used in the media section
@@ -152,7 +150,7 @@ Please see the Screenshots
 7. Vaulty and Divi
 
 # Under the hood
-[section]: <> (Under the hood)
+[wp-section]: <> (Under the hood)
 On activation the plugin will create the folder ".vaulty" inside of wp-uploads.
 All secured files will be moved to this directory (including the substructure e.g. wp-uploads/2020/01/foobar.gif will be wp-uploads/.vaulty/2020/01/foobar.gif)
 The .vaulty folder is secured by an .htaccess file witch reroute all requests to a WP call. This call will be captured by Vaulty and processed, followed by the requested media or an HTTP error code + fallback.
@@ -162,13 +160,13 @@ TODO: Long explanation and flow description
 
 
 # Changelog
-[section]: <> (Changelog)
+[wp-section]: <> (Changelog)
 
 ## 1.0
 * the fist open source version
 
 
 # Upgrade Notice
-[section]: <> (Upgrade Notice)
+[wp-section]: <> (Upgrade Notice)
 ## 1.0
 * The initial commit as a open source plugin for wordpress. born out of need, I've installed similar code on an high traffic subscription based page.
