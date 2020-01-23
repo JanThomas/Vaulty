@@ -48,6 +48,7 @@ define( 'VAULTY_VERSION', '1.0.0' );
  */
 require plugin_dir_path( __FILE__ ) . 'vaulty.class.php';
 
+
 register_activation_hook( __FILE__, [ Vaulty::me(), 'plugin_activate' ] );
 register_deactivation_hook( __FILE__, [ Vaulty::me(), 'plugin_deactivate' ] );
 register_uninstall_hook( __FILE__, [ Vaulty::me(), 'plugin_uninstall' ] );
