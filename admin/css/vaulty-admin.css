@@ -2,3 +2,35 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+.vaulty-attachment {
+    float: right;
+    display: block;
+    line-height: 2.5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vaulty-attachment .vaulty-icon {
+    float: left;
+    display: inline-block;
+}
+
+.vaulty-attachment .dashicons, .vaulty-attachment .spinner {
+    line-height: 1;
+    display: none;
+    visibility: visible;
+    width: 20px;
+    height: 20px;
+    margin: 8px 5px;
+}
+
+.vaulty-attachment.locked .vaulty-closed,
+.vaulty-attachment.unlocked .vaulty-open,
+.vaulty-attachment.loading .vaulty-loading {
+    display: inline-block;
+}
+
+.vaulty-attachment .vaulty-select {
+
+}
